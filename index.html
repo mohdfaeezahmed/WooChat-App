@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooChat - Realtime Node Socket.io Chat App</title>
+    <script defer src = "http://localhost:8001/socket.io/socket.io.js"></script>
+    <script defer src = "js/client.js"></script>
+    <link rel = "stylesheet" href="../css/style.css">
+</head>
+<body> 
+    <nav>
+        <div class = "logoContainer">
+            <img class = "logo" src = "chatapp.png" alt = "">
+            <span class="app-title">WooChat</span>
+            <h2>The Realtime Node Socket.io Chat App.</h2>
+        </div>
+        
+    </nav>
+    <div class = "container">
+        <div class = "message right">Hey dude, wassup!</div>
+        <div class = "message left">Hey Faeez, all good! You tell.</div>
+    </div>
+
+    <div class = "send">
+        <form action = "#" id = "send-container">
+            <input type= "text" name = "messageInp" id = "messageInp" placeholder="Enter your message...">
+            <button class = "btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
