@@ -24,7 +24,7 @@ const userName = prompt("Enter your userName to join");
 socket.emit('new-user-joined', userName);
 
 socket.on('user-joined', userName => {
-append(`${userName} joined the chat`, 'right')
+append(`${userName} joined the chat`, 'left')
 })
 
 socket.on('receive', data => {
@@ -32,6 +32,6 @@ socket.on('receive', data => {
 })
 
 socket.on('left', userName => {
-    append(`${userName} left the chat`, 'right')
+    append(`${userName} left the chat`, 'left')
 })
 
