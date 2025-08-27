@@ -9,3 +9,9 @@ THIS CHAT APP IS A REALTIME CHATTING APPLICATION WHICH IS DEVELOPED BY USING NOD
   //should have nodemon installed
   //should have node modules
   //should have socket.io installed
+
+
+  
+nodeServer % npm init
+nodeServer % npm i socket.io
+nodeServer % npx nodemon index.js
